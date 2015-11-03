@@ -1,0 +1,11 @@
+
+
+<h1>Login custom user</h1><form method="post" action="{% url 'login_autenticar' %}">
+	{% csrf_token %}
+	<input type="text" id="user" name="user" />
+	
+	<input type="password" id="username" name="password" />
+	
+	<input type="submit" value="Login"  />
+	
+</form>
